@@ -4,11 +4,12 @@ var MessagesView = {
 
   initialize: function() {
     //MessagesView.$chats.on('', MessagesView.renderMessage);
+    // MessagesView.renderMessage();
   },
 
   renderMessage: function(message) {
-    message = MessageView.render;
-    MessagesView.$chats.append(message);
+    MessagesView.$chats.append(MessageView.render);
+
   }
 
 };

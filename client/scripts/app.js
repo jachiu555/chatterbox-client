@@ -10,8 +10,9 @@ var App = {
     FormView.initialize();
     RoomsView.initialize();
     MessagesView.initialize();
+    Friends.initialize();
 
-    // Fetch initial batch of messages
+    // Fetch initial batch of messagess
     App.startSpinner();
     App.fetch(App.stopSpinner);
 
