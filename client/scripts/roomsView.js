@@ -4,9 +4,12 @@ var RoomsView = {
   $select: $('#rooms select'),
 
   initialize: function() {
+
   },
 
-  render: function() {
+  renderRoom: function(roomName) {
+    roomName = MessageView.render;
+    RoomsView.$select.append(roomName);
   }
 
 };
